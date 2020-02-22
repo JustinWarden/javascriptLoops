@@ -145,3 +145,71 @@
 // }
 // gradeAverage()
 
+//exercise 12
+// var weatherForecast = [
+//     {
+//      day: "Today",
+//      temperature: {
+//        high: 55,
+//        low: 32
+//      },
+//      conditions: "sunny",
+//      astronomy: {
+//        sunrise: "7:43 AM",
+//        sunset: "5:09 PM"
+//      }
+//     },
+//     {
+//      day: "Saturday",
+//      temperature: {
+//        high: 50,
+//        low: 29
+//       },
+//      conditions: "cloudy",
+//      astronomy: {
+//        sunrise: "7:44 AM",
+//        sunset: "5:08 PM"
+//      }
+//     },
+//     {
+//      day: "Sunday",
+//      temperature: {
+//        high: 47,
+//        low: 35
+//       },
+//      conditions: "chance of rain",
+//      astronomy: {
+//        sunrise: "7:45 AM",
+//        sunset: "5:07 PM"
+//      }
+//     }
+//    ]
+
+//    for (i=0; i<weatherForecast.length; i++){
+//     //    console.log(weatherForecast[i])
+//        if(weatherForecast[i].day ==="Today"){
+//            console.log("TODAY temperature: high: 55, low: 32,conditions: sunny, astronomy:sunrise: 7:43 AM sunset: 5:09 PM")
+//        }else if (weatherForecast[i].day ==="Saturday"){
+//         console.log("SATURDAY temperature: high: 50, low: 29,conditions: cloudy, astronomy:sunrise: 7:44 AM sunset: 5:08 PM")
+//        }else if (weatherForecast[i].day ==="Sunday"){
+//         console.log("SUNDAY temperature: high: 47, low: 35,conditions: chance of rain, astronomy:sunrise: 7:45 AM sunset: 5:07 PM")
+//        }
+//    }
+
+// exercise 13 Fibonacci Number Generator
+// var fibonacciNumber = function (number)
+// {
+//   if (number===1)
+//   {
+//     return [0, 1];
+//   }
+//   else
+//   {
+//     var calculate = fibonacciNumber(number - 1);
+//     calculate.push(calculate [calculate.length - 1] + calculate [calculate.length - 2]);
+//     return calculate;
+//   }
+// };
+//  console.log(fibonacciNumber(50));
+
+
